@@ -1,2 +1,2 @@
-/*! llyv.css v0.0.1 */
+/*! llyv.css v0.1.0 */
 .llyv,.llyv .llyv-play-btn,.llyv img{cursor:pointer}.llyv{background-color:#000;margin-bottom:30px;position:relative;padding-top:56.25%;overflow:hidden}.llyv img{width:100%;top:-16.82%}.llyv .llyv-play-btn{width:100px;height:60px;background-color:#282828;z-index:1;border-radius:9px}.llyv .llyv-play-btn:before{content:"";border-style:solid;border-width:15px 0 13px 28px;border-color:transparent transparent transparent #fff}.llyv .llyv-play-btn:hover{background-color:red}.llyv .llyv-play-btn,.llyv .llyv-play-btn:before,.llyv iframe,.llyv img{position:absolute}.llyv iframe{height:100%;width:100%;top:0;left:0}.llyv .llyv-play-btn,.llyv .llyv-play-btn:before{top:50%;left:50%;transform:translate3d(-50%,-50%,0)}
