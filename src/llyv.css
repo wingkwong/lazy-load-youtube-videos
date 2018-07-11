@@ -1,0 +1,71 @@
+/**
+ *
+ * llyv.css
+ * Optimizing the performance while loading multiple YouTube videos on the same page
+ *
+ * @license MIT
+ * @version 0.1.0
+ * @author  Wong, Wing Kam - @wingkwong
+ * @updated 2018-07-11
+ * @link    https://github.com/wingkwong/lazy-load-youtube-videos
+ *
+ */
+
+.llyv {
+	background-color: #000;
+	margin-bottom: 30px;
+	position: relative;
+	padding-top: 56.25%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.llyv img {
+	width: 100%;
+	top: -16.82%;
+}
+
+.llyv .llyv-play-btn {
+	width: 100px;
+	height: 60px;
+	background-color: #282828;
+	z-index: 1;
+	border-radius: 9px;
+}
+
+.llyv .llyv-play-btn:before {
+	content: "";
+	border-style: solid;
+	border-width: 15px 0 13px 28px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.llyv .llyv-play-btn:hover {
+	background-color: #ff0000;
+}
+
+.llyv img,
+.llyv .llyv-play-btn {
+	cursor: pointer;
+}
+
+.llyv img,
+.llyv iframe,
+.llyv .llyv-play-btn,
+.llyv .llyv-play-btn:before {
+	position: absolute;
+}
+
+.llyv iframe {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.llyv .llyv-play-btn,
+.llyv .llyv-play-btn:before {
+	top: 50%;
+	left: 50%;
+	transform: translate3d( -50%, -50%, 0);
+}
