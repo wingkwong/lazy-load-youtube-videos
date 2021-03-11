@@ -6,14 +6,14 @@ Loading a number of iframe requires a great deal of time fetching resources. Und
 
 ## CDN
 ### Download the compressed, production version
-https://cdn.rawgit.com/wingkwong/lazy-load-youtube-videos/master/src/llyv.min.js
+https://cdn.jsdelivr.net/npm/lazy-load-youtube-videos@0.1.0/src/llyv.min.js
 
-https://cdn.rawgit.com/wingkwong/lazy-load-youtube-videos/master/src/llyv.min.css
+https://cdn.jsdelivr.net/npm/lazy-load-youtube-videos@0.1.0/src/llyv.min.css
 
 ### Download the uncompressed, development version
-https://cdn.rawgit.com/wingkwong/lazy-load-youtube-videos/master/src/llyv.js
+https://cdn.jsdelivr.net/npm/lazy-load-youtube-videos@0.1.0/src/llyv.js
 
-https://cdn.rawgit.com/wingkwong/lazy-load-youtube-videos/master/src/llyv.css
+https://cdn.jsdelivr.net/npm/lazy-load-youtube-videos@0.1.0/src/llyv.css
 
 ## Demonstration
 Demo is available at https://wingkwong.github.io/lazy-load-youtube-videos/index.html
