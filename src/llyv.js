@@ -23,7 +23,7 @@
       // Construct thumbnail image
       var img = document.createElement('img');
       img.src = "https://img.youtube.com/vi/" + videos[i].dataset.id + "/hqdefault.jpg";
-      img.loading = "lazy";
+      img.alt = videos[i].dataset.id;
       videos[i].appendChild(img);
 
       // Construct iframe
