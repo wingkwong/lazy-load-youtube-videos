@@ -1,19 +1,21 @@
 # lazy-load-youtube-videos
 Optimizing the performance while loading multiple YouTube videos on the same page.
 
-# privacy by default
-Getting the videos from "www.youtube-nocookie.com" instead of "www.youtube.com".
-
 ## Synopsis
 Loading a number of iframe requires a great deal of time fetching resources. Under this situation, only thumbnails are loaded and the video is triggered only when its thumbnail is being clicked.
+
+## privacy by default
+Getting the videos from "www.youtube-nocookie.com" instead of "www.youtube.com".
 
 ## CDN
 ### Download the compressed, production version
 https://github.com/creopard/lazy-load-youtube-videos/blob/master/src/llyv.min.js
+
 https://github.com/creopard/lazy-load-youtube-videos/blob/master/src/llyv.min.css
 
 ### Download the uncompressed, development version
 https://github.com/creopard/lazy-load-youtube-videos/blob/master/src/llyv.js
+
 https://github.com/creopard/lazy-load-youtube-videos/blob/master/src/llyv.css
 
 ## Demonstration
