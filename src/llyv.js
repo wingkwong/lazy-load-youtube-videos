@@ -12,6 +12,13 @@
  */
 (function() {
     'use strict';
+    var supportsWebP = (function () {
+        var elem = document.createElement('canvas');
+        if (!!(elem.getContext && elem.getContext('2d'))) {
+            return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+        }
+        return false;
+    })();
     var videos = document.querySelectorAll('.llyv');
 
     for (var i = 0; i < videos.length; i++) {
@@ -22,7 +29,9 @@
 
       // Construct thumbnail image
       var img = document.createElement('img');
-      img.src = "https://img.youtube.com/vi/" + videos[i].dataset.id + "/hqdefault.jpg";
+      img.src = supportsWebP
+            ? "https://img.youtube.com/vi_webp/" + videos[i].dataset.id + "/hqdefault.webp"
+            : "https://img.youtube.com/vi/" + videos[i].dataset.id + "/hqdefault.jpg";
       videos[i].appendChild(img);
 
       // Construct iframe
